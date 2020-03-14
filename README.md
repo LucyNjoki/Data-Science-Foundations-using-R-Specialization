@@ -15,4 +15,4 @@ _ii) Check official instructions: https://biostat.mc.vanderbilt.edu/wiki/Main/RM
 
 2. install RMySQL package
 
-install.packages(RMySQL)
+install.packages("RMySQL")
