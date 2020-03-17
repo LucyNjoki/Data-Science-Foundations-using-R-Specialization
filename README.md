@@ -39,6 +39,8 @@ BiocManager::install("rhdf5")
 
 ## Reading from the Web
 
+_Reading from the web can be done using 3 methods. That is:_
+
 1. base::readLines()
 
 2. XML::htmlTreeParse()
