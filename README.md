@@ -36,3 +36,11 @@ install.packages("BiocManager")
 BiocManager::install(version = "3.10")
 
 BiocManager::install("rhdf5")
+
+## Reading from the Web
+
+1. base::readLines()
+
+2. XML::htmlTreeParse()
+
+3. httr::GET()
