@@ -1,4 +1,4 @@
-# Data-Science-Foundations-using-R-Specialization: Getting and Cleaning Course
+# Data-Science-Foundations-using-R-Specialization: Getting and Cleaning Course by Jeffery Leek
 
 **Codes for the course: Getting and Cleaning Data**
 
