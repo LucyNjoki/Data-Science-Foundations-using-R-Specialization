@@ -13,7 +13,7 @@
 rm(list = ls())
 
 #----------------------------------------------------------------------
-#creating hdf5 file
+#creating hdf5 file----
 #----------------------------------------------------------------------
 library(rhdf5)
 
@@ -29,7 +29,7 @@ created <- h5createGroup("eample.h5", "foo/foobaa")
 h5ls("eample.h5")
 
 #----------------------------------------------------------------------
-#Write to groups
+#Write to groups----
 #----------------------------------------------------------------------
 A = matrix(1:10, nr = 5, nc= 2)
 h5write(A, "eample.h5", "foo/A")
@@ -43,7 +43,7 @@ h5write(B, "eample.h5", "foo/foobaa/B")
 h5ls("eample.h5")
 
 #---------------------------------------------------------------------
-#Write a dataset
+#Write a dataset----
 #---------------------------------------------------------------------
 #the dataset is added to the top level group
 
@@ -55,7 +55,7 @@ h5write(df, "eample.h5", "df") #df is the top level group
 h5ls("eample.h5")
 
 #----------------------------------------------------------------------
-#Reading Data
+#Reading Data----
 #----------------------------------------------------------------------
 #h5read()
 readA <- h5read("eample.h5", "foo/A")
