@@ -27,6 +27,6 @@ install.packages("RMySQL")
 
 To Install _rhdf5_ package:
 
-1. [http://biocondutor.org/bioLite.R]
+1. (Go to) [http://biocondutor.org/bioLite.R]
 
-2. biocLite("rhdf5")
+2. Enter this in R: biocLite("rhdf5")
