@@ -1,6 +1,6 @@
 # Data-Science-Foundations-using-R-Specialization: Getting and Cleaning Course
 
-**Codes for the course: Getting and Cleaning Course**
+**Codes for the course: Getting and Cleaning Data**
 
 ## Reading XML file
 
