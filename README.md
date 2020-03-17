@@ -30,7 +30,8 @@ To Install _rhdf5_ package:
 source("https://bioconductor.org/install/biocLite.R")
 
 if (!requireNamespace("BiocManager", quietly = TRUE))
-  install.packages("BiocManager")
+
+install.packages("BiocManager")
 
 BiocManager::install(version = "3.10")
 
