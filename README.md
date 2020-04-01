@@ -73,7 +73,7 @@ Also logical statements (**And(&)** and __Or(|)__) can be used to subset data
 
 ### Adding rows and columns in a DF
 
->data$newVaraible
+>data$newVariable
 
 >cbind() - adds a column to the right of the DF
 
